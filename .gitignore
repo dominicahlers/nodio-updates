@@ -1,0 +1,6 @@
+# Release-Binarys und generierte Deploy-Dateien (werden per GitHub Release hochgeladen, nicht ins Repo committet)
+Archive/
+win-unpacked/
+Nodio-Setup-*.exe
+Nodio-Setup-*.exe.blockmap
+latest.yml
