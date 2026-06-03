@@ -1,18 +1,53 @@
 # Nodio
 
-**Nodio** ist eine Desktop-Anwendung für strukturierte, visuelle Wissensarbeit: Inhalten auf einem **World-Canvas** (Graph), **Nodes** mit reichem Markdown-Editor, **typisierten Verbindungen**, SQLite-Projekten und Exporten (PDF, TOON). Technisch: **Electron**, **React**, **SQLite** (`better-sqlite3`). Hersteller: [Obelisk Systems](https://obelisk.systems/).
+**Nodio** ist eine Desktop-App für vernetzte Notizen auf einem freien **Board**: Du ordnest Notizen als Karten an, verknüpfst sie, schreibst in einem komfortablen Editor, durchsuchst dein Projekt und exportierst Inhalte. Alles liegt **lokal auf deinem Rechner** — portabel in einer einzigen **`.db`-Datei**.
+
+**Hersteller:** [Obelisk Systems](https://obelisk.systems/) · **Website:** [nodio.dev](https://nodio.dev/)
 
 ---
 
-## Was die App bereits kann (Stand Codebase)
+## Aktuelle Version: 0.6.0
 
-- **Projekte & Workspace** — Mehrere Projekte; jede Projektdatei ist eine portable **SQLite**-DB. Zentrale `workspace.db` unter dem App-Datenordner (`~/.nodio/`); externe `.db` per Dialog registrieren. **Dashboard**: anlegen, öffnen, umbenennen, **Archiv** mit Wiederherstellung, **„Zuletzt geöffnet“**-Hervorhebung.
-- **World-Canvas** — Graph-Ansicht mit **@xyflow/react**: Nodes positionieren (Drag), **Pan**, **Mausrad-Zoom**, **Toolbar** (Zoom, Fit to content, neue Node in Viewport-Mitte), **Minimap** (einschließlich Tastenkürzel / Speicherung pro Projekt).
-- **Gruppen** — **Hierarchische Gruppen** auf dem Canvas (Farbe, Ein-/Ausklappen, Verschachtelung).
-- **Verbindungen** — **Typisierte Relationen** innerhalb des Projekts: Kanten per Anker oder Konfigurations-Flow am Node-Body; **Cross-Project** nur als Referenz-Link im Editor (kein Canvas-Edge in v1).
-- **Node-Editor** — **TipTap** + Markdown in der DB: WYSIWYG-Toolbar (Überschriften, Listen, Zitat, Code, Links, Tabellen, Aufgaben, Bilder), **@-Mentions** (`nbn:`), automatische **references**-Verbindungen aus Inhalten, **Read-Ansicht** mit GFM (`remark-gfm`), Assets pro Projekt.
-- **Suche & Filter** — **Titelleisten-Suche**, Treffer als Auswahl mit **Zentrierung im Viewport**, Filter nach Typ/Status/Tags, FTS-unterstützt (`nodes_fts`); Minimap-Hervorhebung.
-- **Export** — **PDF** (Puppeteer, Fortschritt, Abbruch, merkbare Einstellungen); **TOON-Projektexport** inkl. Smart Export (remark-Pipeline), Dry-Run, Zielordner, optional **„Made with Nodio“** im PDF. **Markdown-Import** (Analyse, Konflikte, Fortschritt); **PNG** des Canvas über Export-Center (Presets; Detail siehe Post-MVP-Status). **Template-Bibliothek**: gebündelte und nutzerimportierte Vorlagen (`.db`).
-- **Versionierung & Duplikation** — **Node-Verlauf** in SQLite (`node_history`): Snapshots, Diff/Restore in der UI, konfigurierbar. **Node duplizieren** mit Optionen für Teilbaum und Kanten.
-- **Erscheinungsbild & Bedienung** — **Hell/Dunkel/OS** über Design-Tokens, **Sound-Feedbacks** (Howler, abschaltbar), **UI-Motion** (Toasts, Modale, Menüs) mit Rücksicht auf **prefers-reduced-motion**; **Tastenkürzel-Hilfe** und Overrides über Konfiguration; **Fokus-/Immersiv-Modus** (Vollbild, kompakte Chrome); **Auto-Save**-Status in der UI.
-- **Lokalisierung** — **Deutsch** und **Englisch** (i18next), Modi inkl. OS und Entwickler-Modus
+**Was ist neu in 0.6.0?** → [Changelog Deutsch](Changelog/0.6.0.de.md) · [Changelog English](Changelog/0.6.0.en.md)
+
+**Highlights dieser Version:**
+
+- **MCP-Server** — Externer KI-Client (Claude Desktop, Cursor, Cline) greift lokal auf deinen Wissensgraphen zu; 71 Tools, Bearer-Token, kein Cloud-Proxy
+- **World Canvas** — Notizen als Karten, typisierte Verbindungen, Gruppen, Graph-Linse, gespeicherte Views, Listenansicht-Profile
+- **KI-Assistent** — 71 Tools, lokale und Cloud-Modelle (Ollama, OpenAI, Gemini, Grok, Anthropic), Whisper-Offline-Diktat
+- **Kanban & Timeline** — Abhängigkeitspfeile, Drag-Pan, Board-Kontextmenü, Spalten-Icon & Akzentfarbe
+- **Live-Write** — kontinuierliche Markdown-Spiegelung in einen Ordner (~150 ms), Pull, Konflikterkennung
+- **Alles lokal** — portable `.db`-Projekte, automatische Backups, kein Cloud-Zwang
+
+---
+
+## Installation
+
+1. Installer herunterladen: **`Nodio-Setup-<version>.exe`** (Windows)
+2. Setup ausführen — Nodio landet im Startmenü und optional als Autostart-Eintrag
+3. Beim ersten Start: Setup-Assistent wählt dein Nutzungsprofil und erklärt die wichtigsten Funktionen
+
+**Systemanforderungen:** Windows 10/11 (64-Bit)
+
+---
+
+## Changelogs
+
+Alle Release-Notes liegen unter [`Changelog/`](Changelog/):
+
+| Version | Deutsch | English |
+|---------|---------|---------|
+| 0.6.0 | [0.6.0.de.md](Changelog/0.6.0.de.md) | [0.6.0.en.md](Changelog/0.6.0.en.md) |
+| 0.5.5 | [0.5.5.de.md](Changelog/0.5.5.de.md) | [0.5.5.en.md](Changelog/0.5.5.en.md) |
+| 0.5.0 | [0.5.0.de.md](Changelog/0.5.0.de.md) | [0.5.0.en.md](Changelog/0.5.0.en.md) |
+| 0.3.5 | [0.3.5.de.md](Changelog/0.3.5.de.md) | [0.3.5.en.md](Changelog/0.3.5.en.md) |
+
+---
+
+## Automatische Updates
+
+Nodio prüft beim Start auf neue Versionen und zeigt einen Update-Dialog — die Release-Notes werden direkt aus diesem Repository geladen. Unter **Einstellungen → Allgemein** kannst du zwischen dem **Stable**- und **Beta**-Kanal wählen.
+
+---
+
+*Stand: **0.6.0** (Mai 2026) · Public Launch: 30. Juni 2026*
