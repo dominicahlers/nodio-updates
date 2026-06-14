@@ -6,17 +6,20 @@
 
 ---
 
-## Aktuelle Version: 0.6.0
+## Aktuelle Version: 0.6.4
 
-**Was ist neu in 0.6.0?** → [Changelog Deutsch](Changelog/0.6.0.de.md) · [Changelog English](Changelog/0.6.0.en.md)
+**Letzter deployter Changelog:** [0.6.4 Deutsch](Changelog/0.6.4.de.md) · [0.6.4 English](Changelog/0.6.4.en.md)
 
-**Highlights dieser Version:**
+**Highlights (Stand 0.6.4):**
 
-- **MCP-Server** — Externer KI-Client (Claude Desktop, Cursor, Cline) greift lokal auf deinen Wissensgraphen zu; 71 Tools, Bearer-Token, kein Cloud-Proxy
-- **World Canvas** — Notizen als Karten, typisierte Verbindungen, Gruppen, Graph-Linse, gespeicherte Views, Listenansicht-Profile
-- **KI-Assistent** — 71 Tools, lokale und Cloud-Modelle (Ollama, OpenAI, Gemini, Grok, Anthropic), Whisper-Offline-Diktat
-- **Kanban & Timeline** — Abhängigkeitspfeile, Drag-Pan, Board-Kontextmenü, Spalten-Icon & Akzentfarbe
-- **Live-Write** — kontinuierliche Markdown-Spiegelung in einen Ordner (~150 ms), Pull, Konflikterkennung
+- **7 Starter-Vorlagen** — GDD, Sprint, Security Concept, API-Dokumentation, Krimi, Freelancer, Level Design; Galerie-Tab **Narrativ & Schreiben**; **Template-Pack-Import**
+- **Onboarding** — **Interaktives Canvas-Tutorial** (5 Schritte) + **First-Run-Hub**; 32 Spotlight-Touren
+- **MCP-Server** — 79 Tools, **Konsole** (Aktivitätslog, Genehmigungswarteschlange, inline Fehlerdetails), **Auto-Freigabe** Aus/Sitzung/Immer; Connection-Type-Tools
+- **KI-Assistent** — Schreib-Bestätigung mit **Vorschau** (Preview/Raw); lokale und Cloud-Modelle (Ollama, OpenAI, Gemini, Grok, Anthropic)
+- **Diktat** — Silero-VAD, persistenter GPU-Whisper-Server, GPU-Auswahl
+- **World Canvas** — Performance-Upgrade (Panning, Graph-Cache, LOD); Viewport-Persistenz; Canvas-Objekte mit Rotation, Stilen und **Map-Pin-UX**
+- **Kanban & Timeline** — Abhängigkeitspfeile, leere-Spalten-Hinweiskarte, Board-Kontextmenü
+- **Live-Write** — kontinuierliche Markdown-Spiegelung (~150 ms), Pull, Konflikterkennung
 - **Alles lokal** — portable `.db`-Projekte, automatische Backups, kein Cloud-Zwang
 
 ---
@@ -37,6 +40,10 @@ Alle Release-Notes liegen unter [`Changelog/`](Changelog/):
 
 | Version | Deutsch | English |
 |---------|---------|---------|
+| 0.6.4 | [0.6.4.de.md](Changelog/0.6.4.de.md) | [0.6.4.en.md](Changelog/0.6.4.en.md) |
+| 0.6.3 | [0.6.3.de.md](Changelog/0.6.3.de.md) | [0.6.3.en.md](Changelog/0.6.3.en.md) |
+| 0.6.2 | [0.6.2.de.md](Changelog/0.6.2.de.md) | [0.6.2.en.md](Changelog/0.6.2.en.md) |
+| 0.6.1 | [0.6.1.de.md](Changelog/0.6.1.de.md) | [0.6.1.en.md](Changelog/0.6.1.en.md) |
 | 0.6.0 | [0.6.0.de.md](Changelog/0.6.0.de.md) | [0.6.0.en.md](Changelog/0.6.0.en.md) |
 | 0.5.5 | [0.5.5.de.md](Changelog/0.5.5.de.md) | [0.5.5.en.md](Changelog/0.5.5.en.md) |
 | 0.5.0 | [0.5.0.de.md](Changelog/0.5.0.de.md) | [0.5.0.en.md](Changelog/0.5.0.en.md) |
@@ -46,8 +53,8 @@ Alle Release-Notes liegen unter [`Changelog/`](Changelog/):
 
 ## Automatische Updates
 
-Nodio prüft beim Start auf neue Versionen und zeigt einen Update-Dialog — die Release-Notes werden direkt aus diesem Repository geladen. Unter **Einstellungen → Allgemein** kannst du zwischen dem **Stable**- und **Beta**-Kanal wählen.
+Nodio prüft **beim Start** auf neue Versionen und wiederholt die Prüfung etwa alle **30 Minuten** (mit Zeitversatz) — ein Update-Dialog zeigt die Release-Notes direkt aus diesem Repository. Unter **Einstellungen → Allgemein** kannst du zwischen dem **Stable**- und **Beta**-Kanal wählen.
 
 ---
 
-*Stand: **0.6.0** (Mai 2026) · Public Launch: 30. Juni 2026*
+*Stand: **0.6.4** (14. Juni 2026) · Public Launch: 30. Juni 2026*
