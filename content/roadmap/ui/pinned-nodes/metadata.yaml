@@ -1,0 +1,9 @@
+id: pinned-nodes
+category: ui
+status: planned
+quarter: "Q4 2026"
+progress: 0
+priority: low
+tags: [canvas, pinned, navigation]
+title: Pinned Nodes on Canvas
+description: Pin important nodes to fixed screen positions so they stay visible while panning — ideal for reference anchors and always-accessible entry points.

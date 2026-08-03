@@ -1,0 +1,8 @@
+id: ai-assistant
+category: ai
+status: done
+quarter: "Q2 2026"
+priority: high
+tags: [ai, assistant, multi-provider]
+title: AI Assistant
+description: Multi-provider AI assistant (OpenAI, Gemini, Anthropic) with 71 tools — write, search, create and link nodes, run Kanban ops, and query your graph.

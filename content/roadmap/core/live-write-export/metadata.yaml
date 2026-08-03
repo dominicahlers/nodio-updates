@@ -1,0 +1,8 @@
+id: live-write-export
+category: core
+status: done
+quarter: "Q2 2026"
+priority: medium
+tags: [export, live-write, sync]
+title: Live-Write Export
+description: Continuously export a node's content to a watched folder on disk — enables seamless round-trip editing with external tools.

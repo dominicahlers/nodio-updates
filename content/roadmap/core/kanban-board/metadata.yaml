@@ -1,0 +1,8 @@
+id: kanban-board
+category: core
+status: done
+quarter: "Q2 2026"
+priority: high
+tags: [kanban, workflow, core]
+title: Kanban Board
+description: Drag-and-drop Kanban board with custom workflow statuses, WIP limits, and swimlanes — built on top of the node graph.

@@ -1,0 +1,8 @@
+id: web-viewer-sharing
+category: core
+status: planned
+quarter: "Q4 2026"
+priority: medium
+tags: [sharing, web-viewer, publish]
+title: Web Viewer Public Sharing
+description: Publish a read-only web snapshot of any project to a public URL — no account required for viewers; sharable graphs, Kanban boards, and node content.

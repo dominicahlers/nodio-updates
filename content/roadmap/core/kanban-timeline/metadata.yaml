@@ -1,0 +1,9 @@
+id: kanban-timeline
+category: core
+status: done
+quarter: "Q2 2026"
+progress: 100
+priority: medium
+tags: [kanban, timeline, scheduling]
+title: Kanban Timeline View
+description: Gantt-style timeline view for Kanban items with drag-to-reschedule, dependency arrows, and quarter grouping.

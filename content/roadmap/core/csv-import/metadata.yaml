@@ -1,0 +1,9 @@
+id: csv-import
+category: core
+status: planned
+quarter: "Q3 2026"
+progress: 0
+priority: medium
+tags: [import, csv, data]
+title: CSV Import
+description: Import rows from a CSV file as nodes in bulk — map columns to node fields, tags, and connection targets with a preview wizard.

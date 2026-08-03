@@ -1,0 +1,9 @@
+id: plugin-system
+category: core
+status: planned
+quarter: "Q1 2027"
+progress: 0
+priority: high
+tags: [plugins, extensibility, ecosystem]
+title: Plugin System
+description: Public plugin API for community extensions — custom node types, toolbar actions, sidebar panels, and IPC hooks via a sandboxed runtime.

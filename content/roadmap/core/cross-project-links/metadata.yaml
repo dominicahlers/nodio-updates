@@ -1,0 +1,8 @@
+id: cross-project-links
+category: core
+status: planned
+quarter: "Q4 2026"
+priority: medium
+tags: [links, cross-project, navigation]
+title: Cross-Project Links
+description: Create typed connections that span multiple projects — reference a node in Project B from a node in Project A with live resolution.

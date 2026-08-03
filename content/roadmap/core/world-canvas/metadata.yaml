@@ -1,0 +1,8 @@
+id: world-canvas
+category: core
+status: done
+quarter: "Q1 2026"
+priority: high
+tags: [canvas, navigation, core]
+title: World Canvas
+description: Infinite spatial canvas for visual knowledge organisation — pan, zoom, and arrange nodes freely in a persistent world layout.

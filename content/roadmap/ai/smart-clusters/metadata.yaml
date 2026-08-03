@@ -1,0 +1,9 @@
+id: smart-clusters
+category: ai
+status: planned
+quarter: "Q4 2026"
+progress: 0
+priority: medium
+tags: [ai, clustering, canvas, automation]
+title: Smart Clusters
+description: AI-assisted automatic grouping of canvas nodes by semantic similarity — suggests and applies cluster labels with one click.

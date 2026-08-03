@@ -1,0 +1,9 @@
+id: mobile-companion
+category: ui
+status: planned
+quarter: "Q1 2027"
+progress: 0
+priority: medium
+tags: [mobile, companion, sync]
+title: Mobile Companion
+description: Lightweight mobile app for capturing quick notes and viewing your graph on the go — syncs with the desktop app over a local network or cloud.

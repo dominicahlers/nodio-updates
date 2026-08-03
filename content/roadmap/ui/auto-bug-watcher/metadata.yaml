@@ -1,0 +1,8 @@
+id: auto-bug-watcher
+category: ui
+status: done
+quarter: "Q3 2026"
+priority: medium
+tags: [stability, bug-reporting, devtools]
+title: Auto Bug Watcher & Recovery Wizard
+description: Background error monitor that detects white-screens and runtime errors, records a ring-buffer of breadcrumbs, and guides users through one-click bug reports.

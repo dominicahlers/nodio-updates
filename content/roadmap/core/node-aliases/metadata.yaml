@@ -1,0 +1,8 @@
+id: node-aliases
+category: core
+status: done
+quarter: "Q2 2026"
+priority: medium
+tags: [nodes, navigation, aliases]
+title: Node Aliases
+description: Create named shortcuts for frequently accessed nodes; aliases resolve transparently across views and links.

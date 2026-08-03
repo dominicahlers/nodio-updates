@@ -1,0 +1,8 @@
+id: dashboard-widgets
+category: ui
+status: planned
+quarter: "Q3 2026"
+priority: medium
+tags: [dashboard, widgets, customisation]
+title: Dashboard Widget System
+description: Composable dashboard widgets — add custom metrics panels, saved views, tag clouds, and AI summaries to your project home screen.

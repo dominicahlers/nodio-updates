@@ -1,0 +1,374 @@
+{
+  "version": 1,
+  "quarters": [
+    {
+      "title": "Q1 2026",
+      "items": [
+        {
+          "label": "World Canvas",
+          "status": "done",
+          "id": "world-canvas",
+          "category": "core",
+          "progress": null,
+          "tags": [
+            "canvas",
+            "navigation",
+            "core"
+          ],
+          "description": "Infinite spatial canvas for visual knowledge organisation — pan, zoom, and arrange nodes freely in a persistent world layout."
+        },
+        {
+          "label": "Project Dashboard",
+          "status": "done",
+          "id": "project-dashboard",
+          "category": "ui",
+          "progress": 100,
+          "tags": [
+            "dashboard",
+            "metrics",
+            "ui"
+          ],
+          "description": "At-a-glance project health: node growth charts, tag distribution, recent activity, word count trends, and Kanban throughput metrics."
+        },
+        {
+          "label": "WYSIWYG Editor",
+          "status": "done",
+          "id": "wysiwyg-editor",
+          "category": "ui",
+          "progress": null,
+          "tags": [
+            "editor",
+            "ui",
+            "core"
+          ],
+          "description": "Rich text editor with Markdown shortcut support, inline formatting, code blocks, tables, and attachment embeds."
+        }
+      ]
+    },
+    {
+      "title": "Q2 2026",
+      "items": [
+        {
+          "label": "AI Assistant",
+          "status": "done",
+          "id": "ai-assistant",
+          "category": "ai",
+          "progress": null,
+          "tags": [
+            "ai",
+            "assistant",
+            "multi-provider"
+          ],
+          "description": "Multi-provider AI assistant (OpenAI, Gemini, Anthropic) with 71 tools — write, search, create and link nodes, run Kanban ops, and query your graph."
+        },
+        {
+          "label": "Whisper Dictation",
+          "status": "done",
+          "id": "whisper-dictation",
+          "category": "ai",
+          "progress": 100,
+          "tags": [
+            "ai",
+            "dictation",
+            "offline",
+            "whisper"
+          ],
+          "description": "Offline speech-to-text dictation powered by Whisper.cpp — transcribes directly into the node editor without a cloud round-trip."
+        },
+        {
+          "label": "Kanban Board",
+          "status": "done",
+          "id": "kanban-board",
+          "category": "core",
+          "progress": null,
+          "tags": [
+            "kanban",
+            "workflow",
+            "core"
+          ],
+          "description": "Drag-and-drop Kanban board with custom workflow statuses, WIP limits, and swimlanes — built on top of the node graph."
+        },
+        {
+          "label": "Kanban Timeline View",
+          "status": "done",
+          "id": "kanban-timeline",
+          "category": "core",
+          "progress": 100,
+          "tags": [
+            "kanban",
+            "timeline",
+            "scheduling"
+          ],
+          "description": "Gantt-style timeline view for Kanban items with drag-to-reschedule, dependency arrows, and quarter grouping."
+        },
+        {
+          "label": "Live-Write Export",
+          "status": "done",
+          "id": "live-write-export",
+          "category": "core",
+          "progress": null,
+          "tags": [
+            "export",
+            "live-write",
+            "sync"
+          ],
+          "description": "Continuously export a node's content to a watched folder on disk — enables seamless round-trip editing with external tools."
+        },
+        {
+          "label": "Node Aliases",
+          "status": "done",
+          "id": "node-aliases",
+          "category": "core",
+          "progress": null,
+          "tags": [
+            "nodes",
+            "navigation",
+            "aliases"
+          ],
+          "description": "Create named shortcuts for frequently accessed nodes; aliases resolve transparently across views and links."
+        }
+      ]
+    },
+    {
+      "title": "Q3 2026",
+      "items": [
+        {
+          "label": "Refine Whisper Dictation",
+          "status": "done",
+          "id": "refactor-whisper",
+          "category": "ai",
+          "progress": null,
+          "tags": [
+            "ai",
+            "whisper",
+            "refactor"
+          ],
+          "description": "Whole refactoring of the Whisper integration. Better and faster Word detection."
+        },
+        {
+          "label": "Semantic Search",
+          "status": "done",
+          "id": "semantic-search",
+          "category": "ai",
+          "progress": null,
+          "tags": [
+            "ai",
+            "search",
+            "indexing",
+            "embeddings"
+          ],
+          "description": "Vector-based semantic search across all node content — find related notes by meaning, not just keyword matches, using local embeddings."
+        },
+        {
+          "label": "CSV Import",
+          "status": "planned",
+          "id": "csv-import",
+          "category": "core",
+          "progress": 0,
+          "tags": [
+            "import",
+            "csv",
+            "data"
+          ],
+          "description": "Import rows from a CSV file as nodes in bulk — map columns to node fields, tags, and connection targets with a preview wizard."
+        },
+        {
+          "label": "MCP Server",
+          "status": "done",
+          "id": "mcp-server",
+          "category": "core",
+          "progress": null,
+          "tags": [
+            "mcp",
+            "integrations",
+            "api"
+          ],
+          "description": "Built-in Model Context Protocol server — exposes your graph to any MCP-compatible AI client (Claude Desktop, Cursor, Zed, etc.) over a local port."
+        },
+        {
+          "label": "Achievements & Milestones",
+          "status": "done",
+          "id": "achievements",
+          "category": "ui",
+          "progress": null,
+          "tags": [
+            "achievements",
+            "milestones",
+            "gamification"
+          ],
+          "description": "Unlock achievements for reaching writing goals, building large graphs, and mastering features — a lightweight motivational layer built into the app."
+        },
+        {
+          "label": "Auto Bug Watcher & Recovery Wizard",
+          "status": "done",
+          "id": "auto-bug-watcher",
+          "category": "ui",
+          "progress": null,
+          "tags": [
+            "stability",
+            "bug-reporting",
+            "devtools"
+          ],
+          "description": "Background error monitor that detects white-screens and runtime errors, records a ring-buffer of breadcrumbs, and guides users through one-click bug reports."
+        },
+        {
+          "label": "Dashboard Widget System",
+          "status": "planned",
+          "id": "dashboard-widgets",
+          "category": "ui",
+          "progress": null,
+          "tags": [
+            "dashboard",
+            "widgets",
+            "customisation"
+          ],
+          "description": "Composable dashboard widgets — add custom metrics panels, saved views, tag clouds, and AI summaries to your project home screen."
+        }
+      ]
+    },
+    {
+      "title": "Q4 2026",
+      "items": [
+        {
+          "label": "Smart Clusters",
+          "status": "planned",
+          "id": "smart-clusters",
+          "category": "ai",
+          "progress": 0,
+          "tags": [
+            "ai",
+            "clustering",
+            "canvas",
+            "automation"
+          ],
+          "description": "AI-assisted automatic grouping of canvas nodes by semantic similarity — suggests and applies cluster labels with one click."
+        },
+        {
+          "label": "Auth System",
+          "status": "planned",
+          "id": "auth-system",
+          "category": "core",
+          "progress": null,
+          "tags": [
+            "auth",
+            "accounts",
+            "teams",
+            "sync"
+          ],
+          "description": "Account creation and team management — lay the foundation for cloud sync, shared projects, and real-time collaboration."
+        },
+        {
+          "label": "Cross-Project Links",
+          "status": "planned",
+          "id": "cross-project-links",
+          "category": "core",
+          "progress": null,
+          "tags": [
+            "links",
+            "cross-project",
+            "navigation"
+          ],
+          "description": "Create typed connections that span multiple projects — reference a node in Project B from a node in Project A with live resolution."
+        },
+        {
+          "label": "Real-Time Collaboration",
+          "status": "planned",
+          "id": "real-time-collab",
+          "category": "core",
+          "progress": 0,
+          "tags": [
+            "collaboration",
+            "real-time",
+            "teams",
+            "sync"
+          ],
+          "description": "Live multi-user editing of shared projects — presence indicators, conflict-free node merges via CRDT, and team-space management."
+        },
+        {
+          "label": "Web Viewer Public Sharing",
+          "status": "planned",
+          "id": "web-viewer-sharing",
+          "category": "core",
+          "progress": null,
+          "tags": [
+            "sharing",
+            "web-viewer",
+            "publish"
+          ],
+          "description": "Publish a read-only web snapshot of any project to a public URL — no account required for viewers; sharable graphs, Kanban boards, and node content."
+        },
+        {
+          "label": "Canvas Sketching",
+          "status": "inProgress",
+          "id": "canvas-sketching",
+          "category": "ui",
+          "progress": 55,
+          "tags": [
+            "canvas",
+            "sketching",
+            "shapes",
+            "freeform"
+          ],
+          "description": "Draw shapes, freeform ink, and annotate directly on the canvas — sticky notes, arrows, and pen-style markup without leaving the app."
+        },
+        {
+          "label": "Pinned Nodes on Canvas",
+          "status": "planned",
+          "id": "pinned-nodes",
+          "category": "ui",
+          "progress": 0,
+          "tags": [
+            "canvas",
+            "pinned",
+            "navigation"
+          ],
+          "description": "Pin important nodes to fixed screen positions so they stay visible while panning — ideal for reference anchors and always-accessible entry points."
+        }
+      ]
+    },
+    {
+      "title": "Q1 2027",
+      "items": [
+        {
+          "label": "Notion Import",
+          "status": "planned",
+          "id": "notion-import",
+          "category": "core",
+          "progress": 0,
+          "tags": [
+            "import",
+            "notion",
+            "migration"
+          ],
+          "description": "One-click import wizard for Notion exports — maps pages to nodes, databases to projects, and preserves backlinks and nested page hierarchies."
+        },
+        {
+          "label": "Plugin System",
+          "status": "planned",
+          "id": "plugin-system",
+          "category": "core",
+          "progress": 0,
+          "tags": [
+            "plugins",
+            "extensibility",
+            "ecosystem"
+          ],
+          "description": "Public plugin API for community extensions — custom node types, toolbar actions, sidebar panels, and IPC hooks via a sandboxed runtime."
+        },
+        {
+          "label": "Mobile Companion",
+          "status": "planned",
+          "id": "mobile-companion",
+          "category": "ui",
+          "progress": 0,
+          "tags": [
+            "mobile",
+            "companion",
+            "sync"
+          ],
+          "description": "Lightweight mobile app for capturing quick notes and viewing your graph on the go — syncs with the desktop app over a local network or cloud."
+        }
+      ]
+    }
+  ]
+}

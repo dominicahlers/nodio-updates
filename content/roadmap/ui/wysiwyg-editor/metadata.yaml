@@ -1,0 +1,8 @@
+id: wysiwyg-editor
+category: ui
+status: done
+quarter: "Q1 2026"
+priority: high
+tags: [editor, ui, core]
+title: WYSIWYG Editor
+description: Rich text editor with Markdown shortcut support, inline formatting, code blocks, tables, and attachment embeds.

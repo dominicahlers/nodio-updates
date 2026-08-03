@@ -1,0 +1,8 @@
+id: refactor-whisper
+category: ai
+status: done
+quarter: "Q3 2026"
+priority: high
+tags: [ai, whisper, refactor]
+title: Refine Whisper Dictation
+description: Whole refactoring of the Whisper integration. Better and faster Word detection.

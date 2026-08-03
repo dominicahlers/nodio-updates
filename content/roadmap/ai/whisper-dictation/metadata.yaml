@@ -1,0 +1,9 @@
+id: whisper-dictation
+category: ai
+status: done
+quarter: "Q2 2026"
+progress: 100
+priority: high
+tags: [ai, dictation, offline, whisper]
+title: Whisper Dictation
+description: Offline speech-to-text dictation powered by Whisper.cpp — transcribes directly into the node editor without a cloud round-trip.

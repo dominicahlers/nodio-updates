@@ -1,0 +1,8 @@
+id: auth-system
+category: core
+status: planned
+quarter: "Q4 2026"
+priority: high
+tags: [auth, accounts, teams, sync]
+title: Auth System
+description: Account creation and team management — lay the foundation for cloud sync, shared projects, and real-time collaboration.

@@ -1,0 +1,8 @@
+id: semantic-search
+category: ai
+status: done
+quarter: "Q3 2026"
+priority: high
+tags: [ai, search, indexing, embeddings]
+title: Semantic Search
+description: Vector-based semantic search across all node content — find related notes by meaning, not just keyword matches, using local embeddings.

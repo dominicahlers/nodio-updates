@@ -1,0 +1,8 @@
+id: mcp-server
+category: core
+status: done
+quarter: "Q3 2026"
+priority: high
+tags: [mcp, integrations, api]
+title: MCP Server
+description: Built-in Model Context Protocol server — exposes your graph to any MCP-compatible AI client (Claude Desktop, Cursor, Zed, etc.) over a local port.

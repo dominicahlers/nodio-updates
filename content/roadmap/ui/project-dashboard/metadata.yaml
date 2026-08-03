@@ -1,0 +1,9 @@
+id: project-dashboard
+category: ui
+status: done
+quarter: "Q1 2026"
+progress: 100
+priority: high
+tags: [dashboard, metrics, ui]
+title: Project Dashboard
+description: At-a-glance project health: node growth charts, tag distribution, recent activity, word count trends, and Kanban throughput metrics.

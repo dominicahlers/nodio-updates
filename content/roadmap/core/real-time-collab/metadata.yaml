@@ -1,0 +1,9 @@
+id: real-time-collab
+category: core
+status: planned
+quarter: "Q4 2026"
+progress: 0
+priority: high
+tags: [collaboration, real-time, teams, sync]
+title: Real-Time Collaboration
+description: Live multi-user editing of shared projects — presence indicators, conflict-free node merges via CRDT, and team-space management.
